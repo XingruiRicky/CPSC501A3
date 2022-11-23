@@ -1,6 +1,9 @@
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+
+import ttt.*;
 
 public class Inspector {
 
@@ -12,48 +15,55 @@ public class Inspector {
         getInterfaceNames(objClass);
         getConstructors(objClass);
         getMethods(objClass);
-        getFields(objClass);
+        getFields(objClass,obj);
     }
 
     public void getClassName(Class obj) {
-        Class currentClass = obj.getClass();
+        Class currentClass = obj;
         System.out.println("className:  "+currentClass.getName());
     }
 
     public void getSuperClassName(Class obj) {
-        Class currentClass = obj.getClass();
-        while(currentClass!= Object.class){
-            System.out.println("superClassName:  "+currentClass.getSuperclass().getName());
-            getSuperClassName(currentClass.getSuperclass());
-        }
+        Class currentClass = obj;
+        if(currentClass.equals(Object.class)) return;
+        System.out.println("superClassName:  "+currentClass.getSuperclass().getName());
+        getSuperClassName(obj.getSuperclass());
     }
 
     public void getInterfaceNames(Class obj) {
-        Class currentClass = obj.getClass();
+        Class currentClass = obj;
         Class[] interfaceName = currentClass.getInterfaces();
-        System.out.println("InterfaceName:  "+ interfaceName);
+        System.out.println("There are:  "+ interfaceName.length+" interfaces");
+        for(int i=0;i<interfaceName.length;i++){
+            System.out.println("InterfaceName:  "+ interfaceName[i]);
+        }
     }
 
     public void getConstructors(Class obj) {
-        Class currentClass = obj.getClass();
+        Class currentClass = obj;
         Constructor[] cons =currentClass.getDeclaredConstructors();
         for (int i=0;i<cons.length;i++){
 
             String consName = cons[i].getName();
             Class[] consET = cons[i].getExceptionTypes();
             Class[] consPT = cons[i].getParameterTypes();
-            String modifier = convertModifier(cons[i].getModifiers());
+            int modifier = cons[i].getModifiers();
 
             System.out.println("ConstructorName:  "+ consName);
-            System.out.println("ExceptionTypeName:  "+ consET);
-            System.out.println("ParameterTypeName:  "+ consPT);
-            System.out.println("ModifierName:  "+ modifier);
+            for(int j=0;j<consET.length;j++){
+                System.out.println("ExceptionTypeName:  "+ consET[j]);
+            }
+            for(int k=0;k<consPT.length;k++){
+                System.out.println("ParameterTypeName:  "+ consPT[k]);
+            }
+            System.out.println("ModifierName:  "+ Modifier.toString(modifier));
+            System.out.println("===========================");
         }
     }
 
 
     public void getMethods(Class obj) {
-        Class currentClass = obj.getClass();
+        Class currentClass = obj;
         Method[] methods =currentClass.getDeclaredMethods();
         for (int i=0;i<methods.length;i++){
 
@@ -61,79 +71,59 @@ public class Inspector {
             Class[] methodET = methods[i].getExceptionTypes();
             Class[] methodPT = methods[i].getParameterTypes();
             Class<?> methodRT = methods[i].getReturnType();
-            String modifier = convertModifier(methods[i].getModifiers());
+            int modifier = methods[i].getModifiers();
 
-            System.out.println("ConstructorName:  "+ methodName);
-            System.out.println("ExceptionTypeName:  "+ methodET);
-            System.out.println("ParameterTypeName:  "+ methodPT);
-            System.out.println("ParameterTypeName:  "+ methodRT);
-            System.out.println("ModifierName:  "+ modifier);
+            System.out.println("MethodName:  "+ methodName);
+            for(int j=0;j< methodET.length;j++){
+                System.out.println("ExceptionTypeName:  "+ methodET[j]);
+            }
+            for(int k=0;k<methodPT.length;k++){
+                System.out.println("ParameterTypeName:  "+ methodPT[k]);
+            }
+            System.out.println("ReturnTypeName:  "+ methodRT);
+            System.out.println("ModifierName:  "+ Modifier.toString(modifier));
+            System.out.println("===========================");
+
         }
     }
 
-    public void getFields(Class obj) throws IllegalAccessException {
-        Class currentClass = obj.getClass();
+    public void getFields(Class aClass,Object obj) throws IllegalAccessException {
+        Class currentClass = aClass;
         Field[] fields =currentClass.getDeclaredFields();
         for (int i=0;i<fields.length;i++){
 
             String fieldName = fields[i].getName();
             Class<?> fieldType = fields[i].getType();
-            String modifier = convertModifier(fields[i].getModifiers());
+            int modifier = fields[i].getModifiers();
+            fields[i].setAccessible(true);
             Object value = fields[i].get(obj);
 
-            System.out.println("ConstructorName:  "+ fieldName);
-            System.out.println("TypeName:  "+ fieldType);
-            System.out.println("ModifierName:  "+ modifier);
+            System.out.println("FieldName:  "+ fieldName);
+            System.out.println("FieldType:  "+ fieldType);
+            System.out.println("ModifierName:  "+ Modifier.toString(modifier));
             System.out.println("CurrentValue:  "+ value);
-
+            System.out.println("===========================");
         }
 
     }
 
+    public static void main(String[] args) throws Exception {
+        BlockingPlayer bp = new BlockingPlayer("test",'X');
+        Inspector ip = new Inspector();
 
-    public static void main(String[] args) {
+        ip.getClassName(bp.getClass());
+        System.out.println("===========================");
+        ip.getSuperClassName(bp.getClass());
+        System.out.println("===========================");
+        ip.getInterfaceNames(bp.getClass());
+        System.out.println("===========================");
+        ip.getConstructors(bp.getClass());
+        System.out.println("===========================");
+        ip.getMethods(bp.getClass());
+        System.out.println("===========================");
+        ip.getFields(bp.getClass(),bp);
+        System.out.println("===========================");
 
-        System.out.println("Hello world!");
-    }
-
-
-    public String convertModifier(int mod){
-        if(mod==1){
-            return "public";
-        }
-        else if (mod == 2){
-            return "private";
-        }
-        else if (mod == 4){
-            return "protected";
-        }
-        else if (mod == 8){
-            return "static";
-        }
-        else if (mod == 16){
-            return "final";
-        }
-        else if (mod == 32){
-            return "synchronized";
-        }
-        else if (mod == 64){
-            return "volatile";
-        }
-        else if (mod == 128){
-            return "transient";
-        }
-        else if (mod == 256){
-            return "native";
-        }
-        else if (mod == 512){
-            return "interface";
-        }
-        else if (mod == 1024){
-            return "abstract";
-        }
-        else if (mod == 2048){
-            return "strict";
-        }
-        return "No modifier match";
+        System.out.println("Inspect finish");
     }
 }
