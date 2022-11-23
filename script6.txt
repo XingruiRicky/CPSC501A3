@@ -1,0 +1,17 @@
+======================================================
+Filename: script6.txt
+Running Test: [LClassB;@1c20c684
+Recursive: true
+className:  [LClassB;
+===========================
+superClassName:  java.lang.Object
+===========================
+There are:  2 interfaces
+InterfaceName:  interface java.lang.Cloneable
+InterfaceName:  interface java.io.Serializable
+===========================
+===========================
+===========================
+===========================
+Inspect finish
+======================================================

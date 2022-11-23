@@ -1,0 +1,1867 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: true
+className:  java.lang.String
+===========================
+superClassName:  java.lang.Object
+===========================
+There are:  5 interfaces
+InterfaceName:  interface java.io.Serializable
+InterfaceName:  interface java.lang.Comparable
+InterfaceName:  interface java.lang.CharSequence
+InterfaceName:  interface java.lang.constant.Constable
+InterfaceName:  interface java.lang.constant.ConstantDesc
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class java.lang.StringBuffer
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class java.lang.StringBuilder
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.Void
+ModifierName:  
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class java.lang.AbstractStringBuilder
+ParameterTypeName:  class java.lang.Void
+ModifierName:  
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class java.nio.charset.Charset
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ExceptionTypeName:  class java.io.UnsupportedEncodingException
+ParameterTypeName:  class [B
+ParameterTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  class java.nio.charset.Charset
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  byte
+ModifierName:  
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [C
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ExceptionTypeName:  class java.io.UnsupportedEncodingException
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+ConstructorName:  java.lang.String
+ParameterTypeName:  class [I
+ParameterTypeName:  int
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+===========================
+MethodName:  value
+ReturnTypeName:  class [B
+ModifierName:  
+===========================
+MethodName:  equals
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  length
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  toString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  hashCode
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getChars
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  compareTo
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  compareTo
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  int
+ModifierName:  public volatile
+===========================
+MethodName:  indexOf
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  indexOf
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  indexOf
+ParameterTypeName:  class [B
+ParameterTypeName:  byte
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  static
+===========================
+MethodName:  indexOf
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  indexOf
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  checkIndex
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  class [C
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  boolean
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  char
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  double
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  float
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  valueOf
+ParameterTypeName:  long
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  coder
+ReturnTypeName:  byte
+ModifierName:  
+===========================
+MethodName:  rangeCheck
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.Void
+ModifierName:  private static
+===========================
+MethodName:  checkBoundsOffCount
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  static
+===========================
+MethodName:  lookupCharset
+ExceptionTypeName:  class java.io.UnsupportedEncodingException
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.nio.charset.Charset
+ModifierName:  private static
+===========================
+MethodName:  isNotContinuation
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  decode2
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  char
+ModifierName:  private static
+===========================
+MethodName:  decodeUTF8_UTF16
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  boolean
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  scale
+ParameterTypeName:  int
+ParameterTypeName:  float
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  decodeWithDecoder
+ParameterTypeName:  class java.nio.charset.CharsetDecoder
+ParameterTypeName:  class [C
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  newStringNoRepl1
+ParameterTypeName:  class [B
+ParameterTypeName:  class java.nio.charset.Charset
+ReturnTypeName:  class java.lang.String
+ModifierName:  private static
+===========================
+MethodName:  newStringUTF8NoRepl
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  static
+===========================
+MethodName:  throwMalformed
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  private static
+===========================
+MethodName:  throwMalformed
+ParameterTypeName:  class [B
+ReturnTypeName:  void
+ModifierName:  private static
+===========================
+MethodName:  encodeUTF8
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ParameterTypeName:  boolean
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  encode8859_1
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  encode8859_1
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ParameterTypeName:  boolean
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  encodeASCII
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  encodeWithEncoder
+ParameterTypeName:  class java.nio.charset.Charset
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ParameterTypeName:  boolean
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  safeTrim
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  boolean
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  encode
+ParameterTypeName:  class java.nio.charset.Charset
+ParameterTypeName:  byte
+ParameterTypeName:  class [B
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  getBytesNoRepl1
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.nio.charset.Charset
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  isASCII
+ParameterTypeName:  class [B
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  throwUnmappable
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  private static
+===========================
+MethodName:  throwUnmappable
+ParameterTypeName:  class [B
+ReturnTypeName:  void
+ModifierName:  private static
+===========================
+MethodName:  isMalformed3
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  malformed3
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  decode3
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  char
+ModifierName:  private static
+===========================
+MethodName:  isMalformed3_2
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  decode4
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  isMalformed4
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  malformed4
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  isMalformed4_2
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  isMalformed4_3
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  private static
+===========================
+MethodName:  encodeUTF8_UTF16
+ParameterTypeName:  class [B
+ParameterTypeName:  boolean
+ReturnTypeName:  class [B
+ModifierName:  private static
+===========================
+MethodName:  isLatin1
+ReturnTypeName:  boolean
+ModifierName:  
+===========================
+MethodName:  charAt
+ParameterTypeName:  int
+ReturnTypeName:  char
+ModifierName:  public
+===========================
+MethodName:  codePointAt
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  codePointBefore
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  codePointCount
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  offsetByCodePoints
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  checkBoundsBeginEnd
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  static
+===========================
+MethodName:  getBytes
+ParameterTypeName:  class java.nio.charset.Charset
+ReturnTypeName:  class [B
+ModifierName:  public
+===========================
+MethodName:  getBytes
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  byte
+ReturnTypeName:  void
+ModifierName:  
+===========================
+MethodName:  getBytes
+ExceptionTypeName:  class java.io.UnsupportedEncodingException
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class [B
+ModifierName:  public
+===========================
+MethodName:  getBytes
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  getBytes
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  int
+ParameterTypeName:  byte
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  
+===========================
+MethodName:  getBytes
+ReturnTypeName:  class [B
+ModifierName:  public
+===========================
+MethodName:  contentEquals
+ParameterTypeName:  interface java.lang.CharSequence
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  contentEquals
+ParameterTypeName:  class java.lang.StringBuffer
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  nonSyncContentEquals
+ParameterTypeName:  class java.lang.AbstractStringBuilder
+ReturnTypeName:  boolean
+ModifierName:  private
+===========================
+MethodName:  regionMatches
+ParameterTypeName:  boolean
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  regionMatches
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  startsWith
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  startsWith
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  lastIndexOf
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  lastIndexOf
+ParameterTypeName:  class [B
+ParameterTypeName:  byte
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  static
+===========================
+MethodName:  lastIndexOf
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  lastIndexOf
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  lastIndexOf
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  substring
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  substring
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  isEmpty
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  replace
+ParameterTypeName:  char
+ParameterTypeName:  char
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  replace
+ParameterTypeName:  interface java.lang.CharSequence
+ParameterTypeName:  interface java.lang.CharSequence
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  matches
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  replaceFirst
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  replaceAll
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  split
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class [Ljava.lang.String;
+ModifierName:  public
+===========================
+MethodName:  split
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  int
+ReturnTypeName:  class [Ljava.lang.String;
+ModifierName:  public
+===========================
+MethodName:  join
+ParameterTypeName:  interface java.lang.CharSequence
+ParameterTypeName:  class [Ljava.lang.CharSequence;
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static transient
+===========================
+MethodName:  join
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [Ljava.lang.String;
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  static
+===========================
+MethodName:  join
+ParameterTypeName:  interface java.lang.CharSequence
+ParameterTypeName:  interface java.lang.Iterable
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  toLowerCase
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  toLowerCase
+ParameterTypeName:  class java.util.Locale
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  toUpperCase
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  toUpperCase
+ParameterTypeName:  class java.util.Locale
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  trim
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  strip
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  stripLeading
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  stripTrailing
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  indexOfNonWhitespace
+ReturnTypeName:  int
+ModifierName:  private
+===========================
+MethodName:  lines
+ReturnTypeName:  interface java.util.stream.Stream
+ModifierName:  public
+===========================
+MethodName:  repeat
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  lastIndexOfNonWhitespace
+ReturnTypeName:  int
+ModifierName:  private
+===========================
+MethodName:  outdent
+ParameterTypeName:  interface java.util.List
+ReturnTypeName:  int
+ModifierName:  private static
+===========================
+MethodName:  isBlank
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  toCharArray
+ReturnTypeName:  class [C
+ModifierName:  public
+===========================
+MethodName:  format
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [Ljava.lang.Object;
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static transient
+===========================
+MethodName:  format
+ParameterTypeName:  class java.util.Locale
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [Ljava.lang.Object;
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static transient
+===========================
+MethodName:  resolveConstantDesc
+ExceptionTypeName:  class java.lang.ReflectiveOperationException
+ParameterTypeName:  class java.lang.invoke.MethodHandles$Lookup
+ReturnTypeName:  class java.lang.Object
+ModifierName:  public volatile
+===========================
+MethodName:  resolveConstantDesc
+ParameterTypeName:  class java.lang.invoke.MethodHandles$Lookup
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  codePoints
+ReturnTypeName:  interface java.util.stream.IntStream
+ModifierName:  public
+===========================
+MethodName:  newStringNoRepl
+ExceptionTypeName:  class java.nio.charset.CharacterCodingException
+ParameterTypeName:  class [B
+ParameterTypeName:  class java.nio.charset.Charset
+ReturnTypeName:  class java.lang.String
+ModifierName:  static
+===========================
+MethodName:  getBytesUTF8NoRepl
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class [B
+ModifierName:  static
+===========================
+MethodName:  getBytesNoRepl
+ExceptionTypeName:  class java.nio.charset.CharacterCodingException
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.nio.charset.Charset
+ReturnTypeName:  class [B
+ModifierName:  static
+===========================
+MethodName:  decodeASCII
+ParameterTypeName:  class [B
+ParameterTypeName:  int
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  int
+ModifierName:  static
+===========================
+MethodName:  equalsIgnoreCase
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  compareToIgnoreCase
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  endsWith
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  subSequence
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  interface java.lang.CharSequence
+ModifierName:  public
+===========================
+MethodName:  concat
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  contains
+ParameterTypeName:  interface java.lang.CharSequence
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  indent
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  stripIndent
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  translateEscapes
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  chars
+ReturnTypeName:  interface java.util.stream.IntStream
+ModifierName:  public
+===========================
+MethodName:  transform
+ParameterTypeName:  interface java.util.function.Function
+ReturnTypeName:  class java.lang.Object
+ModifierName:  public
+===========================
+MethodName:  formatted
+ParameterTypeName:  class [Ljava.lang.Object;
+ReturnTypeName:  class java.lang.String
+ModifierName:  public transient
+===========================
+MethodName:  copyValueOf
+ParameterTypeName:  class [C
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  copyValueOf
+ParameterTypeName:  class [C
+ReturnTypeName:  class java.lang.String
+ModifierName:  public static
+===========================
+MethodName:  intern
+ReturnTypeName:  class java.lang.String
+ModifierName:  public native
+===========================
+MethodName:  checkOffset
+ParameterTypeName:  int
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  static
+===========================
+MethodName:  valueOfCodePoint
+ParameterTypeName:  int
+ReturnTypeName:  class java.lang.String
+ModifierName:  static
+===========================
+MethodName:  describeConstable
+ReturnTypeName:  class java.util.Optional
+ModifierName:  public
+===========================
+MethodName:  lambda$stripIndent$3
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  private static
+===========================
+MethodName:  lambda$indent$2
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  private static
+===========================
+MethodName:  lambda$indent$1
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  private static
+===========================
+MethodName:  lambda$indent$0
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.String
+ReturnTypeName:  class java.lang.String
+ModifierName:  private static
+===========================
+===========================
+FieldName:  value
+FieldType:  class [B
+ModifierName:  private final
+className:  java.lang.reflect.Field
+===========================
+superClassName:  java.lang.reflect.AccessibleObject
+superClassName:  java.lang.Object
+===========================
+There are:  1 interfaces
+InterfaceName:  interface java.lang.reflect.Member
+===========================
+ConstructorName:  java.lang.reflect.Field
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  int
+ParameterTypeName:  boolean
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [B
+ModifierName:  
+===========================
+===========================
+MethodName:  getName
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  get
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  class java.lang.Object
+ModifierName:  public
+===========================
+MethodName:  equals
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  toString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  hashCode
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getModifiers
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  byte
+ModifierName:  public
+===========================
+MethodName:  getShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  short
+ModifierName:  public
+===========================
+MethodName:  getChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  char
+ModifierName:  public
+===========================
+MethodName:  getInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  long
+ModifierName:  public
+===========================
+MethodName:  getFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  float
+ModifierName:  public
+===========================
+MethodName:  getDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  double
+ModifierName:  public
+===========================
+MethodName:  getGenericInfo
+ReturnTypeName:  class sun.reflect.generics.repository.FieldRepository
+ModifierName:  private
+===========================
+MethodName:  getFactory
+ReturnTypeName:  interface sun.reflect.generics.factory.GenericsFactory
+ModifierName:  private
+===========================
+MethodName:  declaredAnnotations
+ReturnTypeName:  interface java.util.Map
+ModifierName:  private
+===========================
+MethodName:  toGenericString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  isSynthetic
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getDeclaringClass
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getAnnotation
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  interface java.lang.annotation.Annotation
+ModifierName:  public
+===========================
+MethodName:  getAnnotationsByType
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  getDeclaredAnnotations
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  set
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setAccessible
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  checkAccess
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  checkCanSetAccessible
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  void
+ModifierName:  
+===========================
+MethodName:  toShortString
+ReturnTypeName:  class java.lang.String
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.AccessibleObject
+ModifierName:  volatile
+===========================
+MethodName:  getGenericSignature
+ReturnTypeName:  class java.lang.String
+ModifierName:  private
+===========================
+MethodName:  getGenericType
+ReturnTypeName:  interface java.lang.reflect.Type
+ModifierName:  public
+===========================
+MethodName:  getType
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getFieldAccessor
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  getFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  byte
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  char
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  short
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  long
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  float
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  double
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  acquireFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setFieldAccessor
+ParameterTypeName:  interface jdk.internal.reflect.FieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  getTypeAnnotationBytes0
+ReturnTypeName:  class [B
+ModifierName:  private native
+===========================
+MethodName:  copy
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  isEnumConstant
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  isTrustedFinal
+ReturnTypeName:  boolean
+ModifierName:  
+===========================
+MethodName:  getAnnotatedType
+ReturnTypeName:  interface java.lang.reflect.AnnotatedType
+ModifierName:  public
+===========================
+===========================
+===========================
+Inspect finish
+===========================
+FieldName:  coder
+FieldType:  byte
+ModifierName:  private final
+CurrentValue:  0
+===========================
+FieldName:  hash
+FieldType:  int
+ModifierName:  private
+CurrentValue:  0
+===========================
+FieldName:  hashIsZero
+FieldType:  boolean
+ModifierName:  private
+CurrentValue:  false
+===========================
+FieldName:  serialVersionUID
+FieldType:  long
+ModifierName:  private static final
+CurrentValue:  -6849794470754667710
+===========================
+FieldName:  COMPACT_STRINGS
+FieldType:  boolean
+ModifierName:  static final
+CurrentValue:  true
+===========================
+FieldName:  serialPersistentFields
+FieldType:  class [Ljava.io.ObjectStreamField;
+ModifierName:  private static final
+className:  java.lang.reflect.Field
+===========================
+superClassName:  java.lang.reflect.AccessibleObject
+superClassName:  java.lang.Object
+===========================
+There are:  1 interfaces
+InterfaceName:  interface java.lang.reflect.Member
+===========================
+ConstructorName:  java.lang.reflect.Field
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  int
+ParameterTypeName:  boolean
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [B
+ModifierName:  
+===========================
+===========================
+MethodName:  getName
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  get
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  class java.lang.Object
+ModifierName:  public
+===========================
+MethodName:  equals
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  toString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  hashCode
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getModifiers
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  byte
+ModifierName:  public
+===========================
+MethodName:  getShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  short
+ModifierName:  public
+===========================
+MethodName:  getChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  char
+ModifierName:  public
+===========================
+MethodName:  getInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  long
+ModifierName:  public
+===========================
+MethodName:  getFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  float
+ModifierName:  public
+===========================
+MethodName:  getDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  double
+ModifierName:  public
+===========================
+MethodName:  getGenericInfo
+ReturnTypeName:  class sun.reflect.generics.repository.FieldRepository
+ModifierName:  private
+===========================
+MethodName:  getFactory
+ReturnTypeName:  interface sun.reflect.generics.factory.GenericsFactory
+ModifierName:  private
+===========================
+MethodName:  declaredAnnotations
+ReturnTypeName:  interface java.util.Map
+ModifierName:  private
+===========================
+MethodName:  toGenericString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  isSynthetic
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getDeclaringClass
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getAnnotation
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  interface java.lang.annotation.Annotation
+ModifierName:  public
+===========================
+MethodName:  getAnnotationsByType
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  getDeclaredAnnotations
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  set
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setAccessible
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  checkAccess
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  checkCanSetAccessible
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  void
+ModifierName:  
+===========================
+MethodName:  toShortString
+ReturnTypeName:  class java.lang.String
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.AccessibleObject
+ModifierName:  volatile
+===========================
+MethodName:  getGenericSignature
+ReturnTypeName:  class java.lang.String
+ModifierName:  private
+===========================
+MethodName:  getGenericType
+ReturnTypeName:  interface java.lang.reflect.Type
+ModifierName:  public
+===========================
+MethodName:  getType
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getFieldAccessor
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  getFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  byte
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  char
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  short
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  long
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  float
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  double
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  acquireFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setFieldAccessor
+ParameterTypeName:  interface jdk.internal.reflect.FieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  getTypeAnnotationBytes0
+ReturnTypeName:  class [B
+ModifierName:  private native
+===========================
+MethodName:  copy
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  isEnumConstant
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  isTrustedFinal
+ReturnTypeName:  boolean
+ModifierName:  
+===========================
+MethodName:  getAnnotatedType
+ReturnTypeName:  interface java.lang.reflect.AnnotatedType
+ModifierName:  public
+===========================
+===========================
+===========================
+Inspect finish
+===========================
+FieldName:  REPL
+FieldType:  char
+ModifierName:  private static final
+CurrentValue:  �
+===========================
+FieldName:  CASE_INSENSITIVE_ORDER
+FieldType:  interface java.util.Comparator
+ModifierName:  public static final
+className:  java.lang.reflect.Field
+===========================
+superClassName:  java.lang.reflect.AccessibleObject
+superClassName:  java.lang.Object
+===========================
+There are:  1 interfaces
+InterfaceName:  interface java.lang.reflect.Member
+===========================
+ConstructorName:  java.lang.reflect.Field
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  int
+ParameterTypeName:  boolean
+ParameterTypeName:  int
+ParameterTypeName:  class java.lang.String
+ParameterTypeName:  class [B
+ModifierName:  
+===========================
+===========================
+MethodName:  getName
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  get
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  class java.lang.Object
+ModifierName:  public
+===========================
+MethodName:  equals
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  toString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  hashCode
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getModifiers
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  byte
+ModifierName:  public
+===========================
+MethodName:  getShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  short
+ModifierName:  public
+===========================
+MethodName:  getChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  char
+ModifierName:  public
+===========================
+MethodName:  getInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  getLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  long
+ModifierName:  public
+===========================
+MethodName:  getFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  float
+ModifierName:  public
+===========================
+MethodName:  getDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  double
+ModifierName:  public
+===========================
+MethodName:  getGenericInfo
+ReturnTypeName:  class sun.reflect.generics.repository.FieldRepository
+ModifierName:  private
+===========================
+MethodName:  getFactory
+ReturnTypeName:  interface sun.reflect.generics.factory.GenericsFactory
+ModifierName:  private
+===========================
+MethodName:  declaredAnnotations
+ReturnTypeName:  interface java.util.Map
+ModifierName:  private
+===========================
+MethodName:  toGenericString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  isSynthetic
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  getDeclaringClass
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getAnnotation
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  interface java.lang.annotation.Annotation
+ModifierName:  public
+===========================
+MethodName:  getAnnotationsByType
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  getDeclaredAnnotations
+ReturnTypeName:  class [Ljava.lang.annotation.Annotation;
+ModifierName:  public
+===========================
+MethodName:  set
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setAccessible
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  checkAccess
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Class
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  checkCanSetAccessible
+ParameterTypeName:  class java.lang.Class
+ReturnTypeName:  void
+ModifierName:  
+===========================
+MethodName:  toShortString
+ReturnTypeName:  class java.lang.String
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  getRoot
+ReturnTypeName:  class java.lang.reflect.AccessibleObject
+ModifierName:  volatile
+===========================
+MethodName:  getGenericSignature
+ReturnTypeName:  class java.lang.String
+ModifierName:  private
+===========================
+MethodName:  getGenericType
+ReturnTypeName:  interface java.lang.reflect.Type
+ModifierName:  public
+===========================
+MethodName:  getType
+ReturnTypeName:  class java.lang.Class
+ModifierName:  public
+===========================
+MethodName:  getFieldAccessor
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  getFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setBoolean
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setByte
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  byte
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setChar
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  char
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setShort
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  short
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setInt
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setLong
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  long
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setFloat
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  float
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  setDouble
+ExceptionTypeName:  class java.lang.IllegalArgumentException
+ExceptionTypeName:  class java.lang.IllegalAccessException
+ParameterTypeName:  class java.lang.Object
+ParameterTypeName:  double
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  acquireFieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  interface jdk.internal.reflect.FieldAccessor
+ModifierName:  private
+===========================
+MethodName:  setFieldAccessor
+ParameterTypeName:  interface jdk.internal.reflect.FieldAccessor
+ParameterTypeName:  boolean
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+MethodName:  getTypeAnnotationBytes0
+ReturnTypeName:  class [B
+ModifierName:  private native
+===========================
+MethodName:  copy
+ReturnTypeName:  class java.lang.reflect.Field
+ModifierName:  
+===========================
+MethodName:  isEnumConstant
+ReturnTypeName:  boolean
+ModifierName:  public
+===========================
+MethodName:  isTrustedFinal
+ReturnTypeName:  boolean
+ModifierName:  
+===========================
+MethodName:  getAnnotatedType
+ReturnTypeName:  interface java.lang.reflect.AnnotatedType
+ModifierName:  public
+===========================
+===========================
+===========================
+Inspect finish
+===========================
+FieldName:  LATIN1
+FieldType:  byte
+ModifierName:  static final
+CurrentValue:  0
+===========================
+FieldName:  UTF16
+FieldType:  byte
+ModifierName:  static final
+CurrentValue:  1
+===========================
+===========================
+Inspect finish
+======================================================

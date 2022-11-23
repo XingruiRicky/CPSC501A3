@@ -1,0 +1,61 @@
+======================================================
+Filename: script1.txt
+Running Test: ClassA
+Recursive: true
+className:  ClassA
+===========================
+superClassName:  java.lang.Object
+===========================
+There are:  2 interfaces
+InterfaceName:  interface java.io.Serializable
+InterfaceName:  interface java.lang.Runnable
+===========================
+ConstructorName:  ClassA
+ModifierName:  public
+===========================
+ConstructorName:  ClassA
+ParameterTypeName:  int
+ModifierName:  public
+===========================
+===========================
+MethodName:  run
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  toString
+ReturnTypeName:  class java.lang.String
+ModifierName:  public
+===========================
+MethodName:  setVal
+ExceptionTypeName:  class java.lang.Exception
+ParameterTypeName:  int
+ReturnTypeName:  void
+ModifierName:  public
+===========================
+MethodName:  getVal
+ReturnTypeName:  int
+ModifierName:  public
+===========================
+MethodName:  printSomething
+ReturnTypeName:  void
+ModifierName:  private
+===========================
+===========================
+FieldName:  val
+FieldType:  int
+ModifierName:  private
+CurrentValue:  3
+===========================
+FieldName:  val2
+FieldType:  double
+ModifierName:  private
+CurrentValue:  0.2
+===========================
+FieldName:  val3
+FieldType:  boolean
+ModifierName:  private
+CurrentValue:  true
+===========================
+===========================
+Inspect finish
+======================================================
