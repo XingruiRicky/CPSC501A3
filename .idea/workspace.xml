@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="regenerate txt files">
+    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="bracket fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
     </list>
@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.Inspector">
     <configuration name="ClassD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassD" />
       <module name="Inspector" />
@@ -76,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Inspector" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="Application.ClassD" />
         <item itemvalue="Application.Main" />
       </list>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669266477344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bracket fix">
+      <created>1669266728538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669266728538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +175,8 @@
     <MESSAGE value="finish without array handle and format" />
     <MESSAGE value="adding object[] handling. Adding format of print statement" />
     <MESSAGE value="regenerate txt files" />
-    <option name="LAST_COMMIT_MESSAGE" value="regenerate txt files" />
+    <MESSAGE value="bracket fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bracket fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

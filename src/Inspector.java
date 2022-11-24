@@ -199,7 +199,9 @@ public class Inspector {
                     System.out.println(depth+" "+" "+"Value:  "+ value);
                 }
                 else if(!fieldType.isPrimitive()){
-                    inspectClass(fields[i].getClass(),fields[i],recursive,depth.length()+4);
+                    System.out.println(depth+" "+" "+"Value:  "+ value);
+                    System.out.println(depth+" "+" "+" "+"-> Recursively inspect");
+                    inspectClass(value.getClass(),fields[i],recursive,depth.length()+4);
                 }
                 else if(fieldType.isPrimitive()){
                     System.out.println(depth+" "+" "+"Value:  "+ value);
