@@ -1,17 +1,137 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@1c20c684
+Running Test: [LClassB;@41629346
 Recursive: true
-className:  [LClassB;
-===========================
-superClassName:  java.lang.Object
-===========================
-There are:  2 interfaces
-InterfaceName:  interface java.lang.Cloneable
-InterfaceName:  interface java.io.Serializable
-===========================
-===========================
-===========================
-===========================
-Inspect finish
+CLASS
+Class:  [LClassB;
+SUPERCLASS -> Recursively Inspect
+SuperClass: java.lang.Object
+    CLASS
+    Class:  java.lang.Object
+    SuperClass: NONE
+    INTERFACES:(class java.lang.Object)
+    Interfaces-> NONE
+    CONSTRUCTORS( class java.lang.Object )
+    Constructors->
+     Constructors:  
+      Name:  java.lang.Object
+      Exceptions-> None 
+      Parameter types: 
+      Modifiers:  public
+    METHODS( class java.lang.Object )
+    Methods->
+     METHOD
+      Name:  finalize
+      Exceptions->
+      class java.lang.Throwable
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  protected
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> 
+      long
+      int
+      Return type:  void
+      Modifiers:  public final
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> 
+      long
+      Return type:  void
+      Modifiers:  public final native
+     METHOD
+      Name:  equals
+      Exceptions->NONE
+      Parameter types-> 
+      class java.lang.Object
+      Return type:  boolean
+      Modifiers:  public
+     METHOD
+      Name:  toString
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  class java.lang.String
+      Modifiers:  public
+     METHOD
+      Name:  hashCode
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  int
+      Modifiers:  public native
+     METHOD
+      Name:  getClass
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  class java.lang.Class
+      Modifiers:  public final native
+     METHOD
+      Name:  clone
+      Exceptions->
+      class java.lang.CloneNotSupportedException
+      Parameter types-> NONE
+      Return type:  class java.lang.Object
+      Modifiers:  protected native
+     METHOD
+      Name:  notify
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final native
+     METHOD
+      Name:  notifyAll
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final native
+    FIELDS( class java.lang.Object )
+    Fields->None
+=============Inspect finish==============
+INTERFACES:(class [LClassB;)
+Interfaces-> 
+INTERFACE -> Recursively Inspect
+interface java.lang.Cloneable
+    CLASS
+    Class:  java.lang.Cloneable
+    INTERFACES:(interface java.lang.Cloneable)
+    Interfaces-> NONE
+    CONSTRUCTORS( interface java.lang.Cloneable )
+    Constructors->NONE
+    METHODS( interface java.lang.Cloneable )
+    Methods->None
+    FIELDS( interface java.lang.Cloneable )
+    Fields->None
+=============Inspect finish==============
+Interfaces-> 
+INTERFACE -> Recursively Inspect
+interface java.io.Serializable
+    CLASS
+    Class:  java.io.Serializable
+    INTERFACES:(interface java.io.Serializable)
+    Interfaces-> NONE
+    CONSTRUCTORS( interface java.io.Serializable )
+    Constructors->NONE
+    METHODS( interface java.io.Serializable )
+    Methods->None
+    FIELDS( interface java.io.Serializable )
+    Fields->None
+=============Inspect finish==============
+CONSTRUCTORS( class [LClassB; )
+Constructors->NONE
+METHODS( class [LClassB; )
+Methods->None
+FIELDS( class [LClassB; )
+Fields->None
+=============Inspect finish==============
 ======================================================

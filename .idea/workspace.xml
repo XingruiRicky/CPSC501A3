@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="adding driver and test classes">
-      <change afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
+    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="finish without array handle and format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Inspector">
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="ClassD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassD" />
+      <module name="Inspector" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Inspector" />
@@ -63,6 +71,7 @@
     <configuration name="Inspector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inspector" />
       <module name="Inspector" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,8 +85,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Inspector" />
         <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Inspector" />
+        <item itemvalue="Application.ClassD" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -112,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669166003149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish without array handle and format">
+      <created>1669180579949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669180579949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +160,17 @@
     <MESSAGE value="finish skeletons" />
     <MESSAGE value="Finish non-recursive version. Add oop code for testing" />
     <MESSAGE value="adding driver and test classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding driver and test classes" />
+    <MESSAGE value="finish without array handle and format" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish without array handle and format" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

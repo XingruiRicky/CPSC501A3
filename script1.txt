@@ -2,60 +2,200 @@
 Filename: script1.txt
 Running Test: ClassA
 Recursive: true
-className:  ClassA
-===========================
-superClassName:  java.lang.Object
-===========================
-There are:  2 interfaces
-InterfaceName:  interface java.io.Serializable
-InterfaceName:  interface java.lang.Runnable
-===========================
-ConstructorName:  ClassA
-ModifierName:  public
-===========================
-ConstructorName:  ClassA
-ParameterTypeName:  int
-ModifierName:  public
-===========================
-===========================
-MethodName:  run
-ReturnTypeName:  void
-ModifierName:  public
-===========================
-MethodName:  toString
-ReturnTypeName:  class java.lang.String
-ModifierName:  public
-===========================
-MethodName:  setVal
-ExceptionTypeName:  class java.lang.Exception
-ParameterTypeName:  int
-ReturnTypeName:  void
-ModifierName:  public
-===========================
-MethodName:  getVal
-ReturnTypeName:  int
-ModifierName:  public
-===========================
-MethodName:  printSomething
-ReturnTypeName:  void
-ModifierName:  private
-===========================
-===========================
-FieldName:  val
-FieldType:  int
-ModifierName:  private
-CurrentValue:  3
-===========================
-FieldName:  val2
-FieldType:  double
-ModifierName:  private
-CurrentValue:  0.2
-===========================
-FieldName:  val3
-FieldType:  boolean
-ModifierName:  private
-CurrentValue:  true
-===========================
-===========================
-Inspect finish
+CLASS
+Class:  ClassA
+SUPERCLASS -> Recursively Inspect
+SuperClass: java.lang.Object
+    CLASS
+    Class:  java.lang.Object
+    SuperClass: NONE
+    INTERFACES:(class java.lang.Object)
+    Interfaces-> NONE
+    CONSTRUCTORS( class java.lang.Object )
+    Constructors->
+     Constructors:  
+      Name:  java.lang.Object
+      Exceptions-> None 
+      Parameter types: 
+      Modifiers:  public
+    METHODS( class java.lang.Object )
+    Methods->
+     METHOD
+      Name:  finalize
+      Exceptions->
+      class java.lang.Throwable
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  protected
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> 
+      long
+      int
+      Return type:  void
+      Modifiers:  public final
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final
+     METHOD
+      Name:  wait
+      Exceptions->
+      class java.lang.InterruptedException
+      Parameter types-> 
+      long
+      Return type:  void
+      Modifiers:  public final native
+     METHOD
+      Name:  equals
+      Exceptions->NONE
+      Parameter types-> 
+      class java.lang.Object
+      Return type:  boolean
+      Modifiers:  public
+     METHOD
+      Name:  toString
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  class java.lang.String
+      Modifiers:  public
+     METHOD
+      Name:  hashCode
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  int
+      Modifiers:  public native
+     METHOD
+      Name:  getClass
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  class java.lang.Class
+      Modifiers:  public final native
+     METHOD
+      Name:  clone
+      Exceptions->
+      class java.lang.CloneNotSupportedException
+      Parameter types-> NONE
+      Return type:  class java.lang.Object
+      Modifiers:  protected native
+     METHOD
+      Name:  notify
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final native
+     METHOD
+      Name:  notifyAll
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public final native
+    FIELDS( class java.lang.Object )
+    Fields->None
+=============Inspect finish==============
+INTERFACES:(class ClassA)
+Interfaces-> 
+INTERFACE -> Recursively Inspect
+interface java.io.Serializable
+    CLASS
+    Class:  java.io.Serializable
+    INTERFACES:(interface java.io.Serializable)
+    Interfaces-> NONE
+    CONSTRUCTORS( interface java.io.Serializable )
+    Constructors->NONE
+    METHODS( interface java.io.Serializable )
+    Methods->None
+    FIELDS( interface java.io.Serializable )
+    Fields->None
+=============Inspect finish==============
+Interfaces-> 
+INTERFACE -> Recursively Inspect
+interface java.lang.Runnable
+    CLASS
+    Class:  java.lang.Runnable
+    INTERFACES:(interface java.lang.Runnable)
+    Interfaces-> NONE
+    CONSTRUCTORS( interface java.lang.Runnable )
+    Constructors->NONE
+    METHODS( interface java.lang.Runnable )
+    Methods->
+     METHOD
+      Name:  run
+      Exceptions->NONE
+      Parameter types-> NONE
+      Return type:  void
+      Modifiers:  public abstract
+    FIELDS( interface java.lang.Runnable )
+    Fields->None
+=============Inspect finish==============
+CONSTRUCTORS( class ClassA )
+Constructors->
+ Constructors:  
+  Name:  ClassA
+  Exceptions-> None 
+  Parameter types: 
+  Modifiers:  public
+ Constructors:  
+  Name:  ClassA
+  Exceptions-> None 
+  Parameter types: 
+  int
+  Modifiers:  public
+METHODS( class ClassA )
+Methods->
+ METHOD
+  Name:  run
+  Exceptions->NONE
+  Parameter types-> NONE
+  Return type:  void
+  Modifiers:  public
+ METHOD
+  Name:  toString
+  Exceptions->NONE
+  Parameter types-> NONE
+  Return type:  class java.lang.String
+  Modifiers:  public
+ METHOD
+  Name:  setVal
+  Exceptions->
+  class java.lang.Exception
+  Parameter types-> 
+  int
+  Return type:  void
+  Modifiers:  public
+ METHOD
+  Name:  getVal
+  Exceptions->NONE
+  Parameter types-> NONE
+  Return type:  int
+  Modifiers:  public
+ METHOD
+  Name:  printSomething
+  Exceptions->NONE
+  Parameter types-> NONE
+  Return type:  void
+  Modifiers:  private
+FIELDS( class ClassA )
+Fields->
+ FIELD
+  Name:  val
+  Type:  int
+  Modifiers:  private
+  Value:  3
+ FIELD
+  Name:  val2
+  Type:  double
+  Modifiers:  private
+  Value:  0.2
+ FIELD
+  Name:  val3
+  Type:  boolean
+  Modifiers:  private
+  Value:  true
+=============Inspect finish==============
 ======================================================
