@@ -97,7 +97,6 @@ SuperClass: java.lang.Object
       Modifiers:  public final native
     FIELDS( class java.lang.Object )
     Fields->None
-=============Inspect finish==============
 INTERFACES:(class java.lang.String)
 Interfaces-> 
 INTERFACE -> Recursively Inspect
@@ -112,7 +111,6 @@ interface java.io.Serializable
     Methods->None
     FIELDS( interface java.io.Serializable )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.lang.Comparable
@@ -133,7 +131,6 @@ interface java.lang.Comparable
       Modifiers:  public abstract
     FIELDS( interface java.lang.Comparable )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.lang.CharSequence
@@ -212,7 +209,6 @@ interface java.lang.CharSequence
       Modifiers:  private
     FIELDS( interface java.lang.CharSequence )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.lang.constant.Constable
@@ -232,7 +228,6 @@ interface java.lang.constant.Constable
       Modifiers:  public abstract
     FIELDS( interface java.lang.constant.Constable )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.lang.constant.ConstantDesc
@@ -254,7 +249,6 @@ interface java.lang.constant.ConstantDesc
       Modifiers:  public abstract
     FIELDS( interface java.lang.constant.ConstantDesc )
     Fields->None
-=============Inspect finish==============
 CONSTRUCTORS( class java.lang.String )
 Constructors->
  Constructors:  
@@ -1630,7 +1624,6 @@ Fields->
               Modifiers:  public final native
             FIELDS( class java.lang.Object )
             Fields->None
-=============Inspect finish==============
         INTERFACES:(class java.lang.reflect.AccessibleObject)
         Interfaces-> 
         INTERFACE -> Recursively Inspect
@@ -1700,7 +1693,6 @@ Fields->
               Modifiers:  private static
             FIELDS( interface java.lang.reflect.AnnotatedElement )
             Fields->None
-=============Inspect finish==============
         CONSTRUCTORS( class java.lang.reflect.AccessibleObject )
         Constructors->
          Constructors:  
@@ -1902,7 +1894,6 @@ Fields->
           Modifiers:  
         FIELDS( class java.lang.reflect.AccessibleObject )
         Fields->None
-=============Inspect finish==============
     INTERFACES:(class java.lang.reflect.Field)
     Interfaces-> 
     INTERFACE -> Recursively Inspect
@@ -1951,7 +1942,6 @@ Fields->
           Type:  int
           Modifiers:  public static final
           Value:  1
-=============Inspect finish==============
     CONSTRUCTORS( class java.lang.reflect.Field )
     Constructors->
      Constructors:  
@@ -2348,7 +2338,6 @@ Fields->
       Modifiers:  public
     FIELDS( class java.lang.reflect.Field )
     Fields->None
-=============Inspect finish==============
  FIELD
   Name:  LATIN1
   Type:  byte
@@ -2359,5 +2348,4 @@ Fields->
   Type:  byte
   Modifiers:  static final
   Value:  1
-=============Inspect finish==============
 ======================================================

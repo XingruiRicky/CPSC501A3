@@ -97,7 +97,6 @@ SuperClass: java.lang.Object
       Modifiers:  public final native
     FIELDS( class java.lang.Object )
     Fields->None
-=============Inspect finish==============
 INTERFACES:(class [LClassB;)
 Interfaces-> 
 INTERFACE -> Recursively Inspect
@@ -112,7 +111,6 @@ interface java.lang.Cloneable
     Methods->None
     FIELDS( interface java.lang.Cloneable )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.io.Serializable
@@ -126,12 +124,10 @@ interface java.io.Serializable
     Methods->None
     FIELDS( interface java.io.Serializable )
     Fields->None
-=============Inspect finish==============
 CONSTRUCTORS( class [LClassB; )
 Constructors->NONE
 METHODS( class [LClassB; )
 Methods->None
 FIELDS( class [LClassB; )
 Fields->None
-=============Inspect finish==============
 ======================================================

@@ -97,7 +97,6 @@ SuperClass: java.lang.Object
       Modifiers:  public final native
     FIELDS( class java.lang.Object )
     Fields->None
-=============Inspect finish==============
 INTERFACES:(class ClassA)
 Interfaces-> 
 INTERFACE -> Recursively Inspect
@@ -112,7 +111,6 @@ interface java.io.Serializable
     Methods->None
     FIELDS( interface java.io.Serializable )
     Fields->None
-=============Inspect finish==============
 Interfaces-> 
 INTERFACE -> Recursively Inspect
 interface java.lang.Runnable
@@ -132,7 +130,6 @@ interface java.lang.Runnable
       Modifiers:  public abstract
     FIELDS( interface java.lang.Runnable )
     Fields->None
-=============Inspect finish==============
 CONSTRUCTORS( class ClassA )
 Constructors->
  Constructors:  
@@ -161,6 +158,12 @@ Methods->
   Return type:  class java.lang.String
   Modifiers:  public
  METHOD
+  Name:  printSomething
+  Exceptions->NONE
+  Parameter types-> NONE
+  Return type:  void
+  Modifiers:  private
+ METHOD
   Name:  setVal
   Exceptions->
   class java.lang.Exception
@@ -174,12 +177,6 @@ Methods->
   Parameter types-> NONE
   Return type:  int
   Modifiers:  public
- METHOD
-  Name:  printSomething
-  Exceptions->NONE
-  Parameter types-> NONE
-  Return type:  void
-  Modifiers:  private
 FIELDS( class ClassA )
 Fields->
  FIELD
@@ -197,5 +194,4 @@ Fields->
   Type:  boolean
   Modifiers:  private
   Value:  true
-=============Inspect finish==============
 ======================================================

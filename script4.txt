@@ -97,7 +97,6 @@ SuperClass: java.lang.Object
       Modifiers:  public final native
     FIELDS( class java.lang.Object )
     Fields->None
-=============Inspect finish==============
 INTERFACES:(class ClassD)
 Interfaces-> NONE
 CONSTRUCTORS( class ClassD )
@@ -232,7 +231,6 @@ Fields->
               Modifiers:  public final native
             FIELDS( class java.lang.Object )
             Fields->None
-=============Inspect finish==============
         INTERFACES:(class java.lang.reflect.AccessibleObject)
         Interfaces-> 
         INTERFACE -> Recursively Inspect
@@ -302,7 +300,6 @@ Fields->
               Modifiers:  private static
             FIELDS( interface java.lang.reflect.AnnotatedElement )
             Fields->None
-=============Inspect finish==============
         CONSTRUCTORS( class java.lang.reflect.AccessibleObject )
         Constructors->
          Constructors:  
@@ -504,7 +501,6 @@ Fields->
           Modifiers:  
         FIELDS( class java.lang.reflect.AccessibleObject )
         Fields->None
-=============Inspect finish==============
     INTERFACES:(class java.lang.reflect.Field)
     Interfaces-> 
     INTERFACE -> Recursively Inspect
@@ -553,7 +549,6 @@ Fields->
           Type:  int
           Modifiers:  public static final
           Value:  1
-=============Inspect finish==============
     CONSTRUCTORS( class java.lang.reflect.Field )
     Constructors->
      Constructors:  
@@ -950,7 +945,6 @@ Fields->
       Modifiers:  public
     FIELDS( class java.lang.reflect.Field )
     Fields->None
-=============Inspect finish==============
  FIELD
   Name:  val2
   Type:  class ClassA
@@ -1054,7 +1048,6 @@ Fields->
               Modifiers:  public final native
             FIELDS( class java.lang.Object )
             Fields->None
-=============Inspect finish==============
         INTERFACES:(class java.lang.reflect.AccessibleObject)
         Interfaces-> 
         INTERFACE -> Recursively Inspect
@@ -1124,7 +1117,6 @@ Fields->
               Modifiers:  private static
             FIELDS( interface java.lang.reflect.AnnotatedElement )
             Fields->None
-=============Inspect finish==============
         CONSTRUCTORS( class java.lang.reflect.AccessibleObject )
         Constructors->
          Constructors:  
@@ -1326,7 +1318,6 @@ Fields->
           Modifiers:  
         FIELDS( class java.lang.reflect.AccessibleObject )
         Fields->None
-=============Inspect finish==============
     INTERFACES:(class java.lang.reflect.Field)
     Interfaces-> 
     INTERFACE -> Recursively Inspect
@@ -1375,7 +1366,6 @@ Fields->
           Type:  int
           Modifiers:  public static final
           Value:  1
-=============Inspect finish==============
     CONSTRUCTORS( class java.lang.reflect.Field )
     Constructors->
      Constructors:  
@@ -1772,7 +1762,6 @@ Fields->
       Modifiers:  public
     FIELDS( class java.lang.reflect.Field )
     Fields->None
-=============Inspect finish==============
  FIELD
   Name:  val3
   Type:  int
@@ -1795,5 +1784,4 @@ Fields->
   Value:  null
   Value:  null
   Value:  null
-=============Inspect finish==============
 ======================================================
