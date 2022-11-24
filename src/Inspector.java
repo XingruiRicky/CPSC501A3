@@ -177,7 +177,7 @@ public class Inspector {
                         System.out.println(depth+" "+" "+"Value:  "+result[j]);
                     }
                 }
-                else{
+                else {
                     Object[] result = (Object[]) value;
                     System.out.println(depth+" "+" "+"Length:  "+ result.length);
                     System.out.println(depth+" "+" "+"Entries->");
@@ -188,9 +188,9 @@ public class Inspector {
                         else{
                             System.out.println(depth+" "+" "+"Value:  "+result[j]);
                         }
-                        }
                     }
                 }
+            }
             else{
                 System.out.println(depth+" "+" "+"Name:  "+ fieldName);
                 System.out.println(depth+" "+" "+"Type:  "+ fieldType.toString());
@@ -208,7 +208,6 @@ public class Inspector {
                     System.out.println(depth+" "+" "+"Error in getFields");
                 }
             }
-
         }
     }
 
