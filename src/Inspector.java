@@ -10,7 +10,7 @@ public class Inspector {
     }
 
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException {
-        String indent = "";
+        String indent = " ";
         for(int i=0;i<depth;i++){
             indent+=" ";
         }
@@ -30,29 +30,31 @@ public class Inspector {
         getFields(c,obj,recursive,indent);
     }
 
-    public void getClassName(Class c, Object obj, boolean recursive, String depth) {
+    public String getClassName(Class c, Object obj, boolean recursive, String depth) {
         System.out.println(depth+"CLASS");
         System.out.println(depth+"Class:  "+c.getName());
+        return c.getName();
     }
 
-    public void getSuperClassName(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
-        if(c.isInterface()) return;
+    public Class getSuperClassName(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
+        if(c.isInterface()) return null;
         if(c.equals(Object.class)){
             System.out.println(depth+"SuperClass: NONE");
-            return;
+            return null;
         }
         System.out.println(depth+"SUPERCLASS -> Recursively Inspect");
         System.out.println(depth+"SuperClass: "+c.getSuperclass().getName());
 //        System.out.print(depth);
-        inspectClass(c.getSuperclass(),obj,true,depth.length()+4);
+        inspectClass(c.getSuperclass(),obj,recursive,depth.length()+4);
+        return c.getSuperclass();
     }
 
-    public void getInterfaceNames(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
+    public Class[] getInterfaceNames(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
         Class[] interfaceName = c.getInterfaces();
         System.out.println(depth+"INTERFACES:(" +c+ ")");
         if(interfaceName.length==0){
             System.out.println(depth+"Interfaces-> NONE");
-            return;
+            return interfaceName;
         }
         for(int i=0;i<interfaceName.length;i++){
             System.out.println(depth+"Interfaces-> ");
@@ -60,16 +62,17 @@ public class Inspector {
             System.out.println(depth+interfaceName[i].toString());
             inspectClass(interfaceName[i],obj,recursive,depth.length()+4);
         }
+        return interfaceName;
     }
 
-    public void getConstructors(Class c, Object obj, boolean recursive, String depth) {
+    public Constructor[] getConstructors(Class c, Object obj, boolean recursive, String depth) {
         Constructor[] cons =c.getDeclaredConstructors();
         System.out.println(depth+"CONSTRUCTORS( "+c+" )");
         System.out.print(depth+"Constructors->");
 
         if(cons.length==0){
             System.out.println("NONE");
-            return;
+            return cons;
         }
         System.out.println();
         for (int i=0;i<cons.length;i++){
@@ -94,16 +97,17 @@ public class Inspector {
             }
             System.out.println(depth+" "+" "+"Modifiers:  "+ Modifier.toString(modifier));
         }
+        return cons;
     }
 
 
-    public void getMethods(Class c, Object obj, boolean recursive, String depth) {
+    public Method[] getMethods(Class c, Object obj, boolean recursive, String depth) {
         Method[] methods =c.getDeclaredMethods();
         System.out.println(depth+"METHODS( "+c+" )");
         System.out.print(depth+"Methods->");
         if(methods.length==0){
             System.out.println("None");
-            return;
+            return methods;
         }
         System.out.println();
         for (int i=0;i<methods.length;i++){
@@ -142,15 +146,16 @@ public class Inspector {
             System.out.println(depth+" "+" "+"Return type:  "+ methodRT);
             System.out.println(depth+" "+" "+"Modifiers:  "+ Modifier.toString(modifier));
         }
+        return methods;
     }
 
-    public void getFields(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
+    public Field[] getFields(Class c, Object obj, boolean recursive, String depth) throws IllegalAccessException {
         Field[] fields =c.getDeclaredFields();
         System.out.println(depth+"FIELDS( "+c+" )");
         System.out.print(depth+"Fields->");
         if(fields.length==0){
             System.out.println("None");
-            return;
+            return fields;
         }
         System.out.println();
         for (int i=0;i<fields.length;i++){
@@ -211,6 +216,7 @@ public class Inspector {
                 }
             }
         }
+        return fields;
     }
 
     public static void main(String[] args) throws Exception {
