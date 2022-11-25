@@ -23,6 +23,8 @@ public class Driver {
         ClassB[] x = new ClassB[12];
         x[3] = new ClassB();
         runTest("script7.txt", x, rec);
+
+
         runTest("script8.txt", "Test String", rec);
     }
 

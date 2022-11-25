@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="Finish">
-      <change afterPath="$PROJECT_DIR$/src/InspectorTest.java" afterDir="false" />
+    <list default="true" id="853ef7a4-12b1-4290-a0e8-a2d9daccc2b8" name="Changes" comment="Finish unit test, fix bug in code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +64,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InspectorTest.getSuperClassName">
+  <component name="RunManager" selected="JUnit.InspectorTest (1)">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="Inspector" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inspector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inspector" />
+      <module name="Inspector" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InspectorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inspector" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,31 +101,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InspectorTest.getConstructors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inspector" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InspectorTest" />
-      <option name="METHOD_NAME" value="getConstructors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InspectorTest.getInterfaceNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inspector" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InspectorTest" />
       <option name="METHOD_NAME" value="getInterfaceNames" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InspectorTest.getMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inspector" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InspectorTest" />
-      <option name="METHOD_NAME" value="getMethods" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InspectorTest.getSuperClassName" />
         <item itemvalue="JUnit.InspectorTest (1)" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Inspector" />
+        <item itemvalue="JUnit.InspectorTest.getSuperClassName" />
         <item itemvalue="JUnit.InspectorTest.getInterfaceNames" />
-        <item itemvalue="JUnit.InspectorTest.getMethods" />
-        <item itemvalue="JUnit.InspectorTest.getConstructors" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669330065700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finish unit test, fix bug in code">
+      <created>1669339340506</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669339340506</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +239,8 @@
     <MESSAGE value="regenerate txt files" />
     <MESSAGE value="bracket fix" />
     <MESSAGE value="Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish" />
+    <MESSAGE value="Finish unit test, fix bug in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish unit test, fix bug in code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,11 +249,6 @@
           <properties class="java.lang.ClassCastException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Inspector.java</url>
-          <line>166</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
