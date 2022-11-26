@@ -298,6 +298,12 @@ Recursive: true
                   Return type:  class java.lang.String
                   Modifiers:  public
                  METHOD
+                  Name:  printSomething
+                  Exceptions->NONE
+                  Parameter types-> NONE
+                  Return type:  void
+                  Modifiers:  private
+                 METHOD
                   Name:  setVal
                   Exceptions->
                   class java.lang.Exception
@@ -311,12 +317,6 @@ Recursive: true
                   Parameter types-> NONE
                   Return type:  int
                   Modifiers:  public
-                 METHOD
-                  Name:  printSomething
-                  Exceptions->NONE
-                  Parameter types-> NONE
-                  Return type:  void
-                  Modifiers:  private
                 FIELDS( class ClassA )
                 Fields->
                  FIELD
@@ -447,6 +447,13 @@ Recursive: true
         Return type:  class java.lang.String
         Modifiers:  public
        METHOD
+        Name:  func3
+        Exceptions->NONE
+        Parameter types-> 
+        int
+        Return type:  void
+        Modifiers:  public abstract
+       METHOD
         Name:  func0
         Exceptions->
         class java.lang.Exception
@@ -476,13 +483,6 @@ Recursive: true
         class java.lang.String
         Return type:  int
         Modifiers:  public
-       METHOD
-        Name:  func3
-        Exceptions->NONE
-        Parameter types-> 
-        int
-        Return type:  void
-        Modifiers:  public abstract
       FIELDS( class ClassC )
       Fields->
        FIELD
@@ -647,6 +647,12 @@ Recursive: true
              Return type:  class java.lang.String
              Modifiers:  public
             METHOD
+             Name:  printSomething
+             Exceptions->NONE
+             Parameter types-> NONE
+             Return type:  void
+             Modifiers:  private
+            METHOD
              Name:  setVal
              Exceptions->
              class java.lang.Exception
@@ -660,12 +666,6 @@ Recursive: true
              Parameter types-> NONE
              Return type:  int
              Modifiers:  public
-            METHOD
-             Name:  printSomething
-             Exceptions->NONE
-             Parameter types-> NONE
-             Return type:  void
-             Modifiers:  private
            FIELDS( class ClassA )
            Fields->
             FIELD
@@ -845,6 +845,12 @@ Recursive: true
              Return type:  class java.lang.String
              Modifiers:  public
             METHOD
+             Name:  printSomething
+             Exceptions->NONE
+             Parameter types-> NONE
+             Return type:  void
+             Modifiers:  private
+            METHOD
              Name:  setVal
              Exceptions->
              class java.lang.Exception
@@ -858,12 +864,6 @@ Recursive: true
              Parameter types-> NONE
              Return type:  int
              Modifiers:  public
-            METHOD
-             Name:  printSomething
-             Exceptions->NONE
-             Parameter types-> NONE
-             Return type:  void
-             Modifiers:  private
            FIELDS( class ClassA )
            Fields->
             FIELD
@@ -1043,6 +1043,12 @@ Recursive: true
              Return type:  class java.lang.String
              Modifiers:  public
             METHOD
+             Name:  printSomething
+             Exceptions->NONE
+             Parameter types-> NONE
+             Return type:  void
+             Modifiers:  private
+            METHOD
              Name:  setVal
              Exceptions->
              class java.lang.Exception
@@ -1056,12 +1062,6 @@ Recursive: true
              Parameter types-> NONE
              Return type:  int
              Modifiers:  public
-            METHOD
-             Name:  printSomething
-             Exceptions->NONE
-             Parameter types-> NONE
-             Return type:  void
-             Modifiers:  private
            FIELDS( class ClassA )
            Fields->
             FIELD
@@ -1291,6 +1291,12 @@ Recursive: true
         Return type:  class java.lang.String
         Modifiers:  public
        METHOD
+        Name:  printSomething
+        Exceptions->NONE
+        Parameter types-> NONE
+        Return type:  void
+        Modifiers:  private
+       METHOD
         Name:  setVal
         Exceptions->
         class java.lang.Exception
@@ -1304,12 +1310,6 @@ Recursive: true
         Parameter types-> NONE
         Return type:  int
         Modifiers:  public
-       METHOD
-        Name:  printSomething
-        Exceptions->NONE
-        Parameter types-> NONE
-        Return type:  void
-        Modifiers:  private
       FIELDS( class ClassA )
       Fields->
        FIELD
@@ -1489,6 +1489,12 @@ Recursive: true
         Return type:  class java.lang.String
         Modifiers:  public
        METHOD
+        Name:  printSomething
+        Exceptions->NONE
+        Parameter types-> NONE
+        Return type:  void
+        Modifiers:  private
+       METHOD
         Name:  setVal
         Exceptions->
         class java.lang.Exception
@@ -1502,12 +1508,6 @@ Recursive: true
         Parameter types-> NONE
         Return type:  int
         Modifiers:  public
-       METHOD
-        Name:  printSomething
-        Exceptions->NONE
-        Parameter types-> NONE
-        Return type:  void
-        Modifiers:  private
       FIELDS( class ClassA )
       Fields->
        FIELD
